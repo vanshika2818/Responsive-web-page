@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.head{
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+}
+.hleft{
+    margin-left: 100px
+}
+.con{
+    height: 76px;
+    padding-top: 30px;
+}
+.hright{
+    margin-right: 140px;
+    font-family:sans-serif;
+    font-size: large;
+    padding-top: 24px;
+    margin-top: 30px;
+    margin-bottom: 19px;
+    width: 110px;
+    padding-left: 48px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    cursor: pointer;
+}
+.hright:hover{
+    opacity: 0.8;
+}
+.left{
+    margin-top: 100px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+
+}
+.up{
+    font-size: 17px;
+    font-family:sans-serif;
+    color: white;
+}
+.mid{
+    font-family:sans-serif;
+    font-size: 50px;
+    margin-top: -40px;
+    color: white;
+}
+.low{
+    display: flex;
+}
+.l{
+    font-size: 17px;
+    font-family:sans-serif;
+    height: 43px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-top: 5px;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    border-style: solid;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.l:hover{
+    opacity: 0.8;
+}
+.crea{
+    margin-top: -40px;
+
+}
+.sidebar{
+    background-color: rgb(41, 40, 40);
+    width: 100px;
+    margin-top: -513px;
+    margin-left: 92.7%;
+    height: 93%;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+img{
+    height: 40px;
+    cursor: pointer;
+}
+img:hover{
+    opacity: 0.8;
+}
+.top,.center,.bottom{
+    margin-left: 25px;
+}
+@media screen and (max-width:412px){
+    body{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 25px;
+    height: 110vh
+    }
+    .hleft{
+        margin-right: 80px;
+        margin-left: 5px;
+    }
+    .hright{
+        padding-left: -30px;
+        padding-right: 33px;
+        padding-bottom: 65px;
+    }
+    .sidebar{
+        width: 413px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        height: 50px;
+        padding-bottom: 18px;
+        margin-top: 200px;
+    }
+    .left{
+        margin-left: 10px;
+        margin-top: 200px;
+    }
+    .up{
+        width: 120px;
+    }
+    .low{
+        width: 400px;
+    }
+    .crea{
+        width: 350px;
+    }
+}
+
+
+
+
